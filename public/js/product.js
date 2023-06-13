@@ -36,7 +36,7 @@ function getCombination(arr, pre) {
 }
 
 function updateVariantPreview() {
-
+   
     var valueArray = [];
 
     $(".select2-value").each(function () {
@@ -109,6 +109,7 @@ function addVariantTemplate() {
 
         })
         .on('change', function () {
+            
             updateVariantPreview();
         });
 
